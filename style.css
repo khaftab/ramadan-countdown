@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: open sans;
+}
+
+body {
+  background-image: url(./img.jpg);
+  background-size: cover;
+  background-position: right right;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+body > h1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 8%;
+  color: rgb(211, 208, 208);
+  font-weight: bold;
+  font-size: 2rem;
+  white-space: pre-wrap;
+}
+
+.countdown-container > div {
+  margin: 0 2.2rem;
+}
+
+.countdown-container > div > h1 {
+  font-size: 4rem;
+  color: rgb(228, 228, 228);
+}
+
+span {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
